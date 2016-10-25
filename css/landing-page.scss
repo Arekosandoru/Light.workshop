@@ -43,7 +43,7 @@ h6 {
     color: #f8f8f8;
     background: url(../img/head.jpg) no-repeat center 40%;
     background-size: cover;
-    min-height: 700px;; 
+    max-height: 700px;; 
 }
 
 .intro-message {
@@ -157,7 +157,7 @@ h6 {
     .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
+        font-size: 2.4em;
     }
 
     ul.banner-social-buttons > li {
@@ -186,8 +186,31 @@ p.copyright {
   }
 .navbar .minirow {
     max-width: 320px;    
-}       
 }
+#about {
+    padding: 0;
+    padding-top: 50px; 
+}   
+.services-section {
+     padding: 0;
+}
+#services {
+    padding: 0;
+}
+#portfolio {
+    padding-bottom: 0;
+}
+.lamp-section {
+     padding: 0;
+}
+section#contact .section-heading {
+    font-size: 23px;
+}
+h2 {
+  font-size: 23px;  
+}
+}
+    
 @media(screen and max-width:321px) {
  section {
      overflow-x: hidden;
