@@ -183,6 +183,7 @@ p.copyright {
 @media(screen and max-width:421px) {
  section {
      overflow-x: hidden;
+     padding: 0;
   }
 .navbar .minirow {
     max-width: 320px;    
@@ -203,8 +204,14 @@ p.copyright {
 .lamp-section {
      padding: 0;
 }
+section#cont .cont {
+    padding: 0;
+}
 section#contact .section-heading {
     font-size: 23px;
+}
+#order {
+    padding: 0;
 }
 h2 {
   font-size: 23px;  
