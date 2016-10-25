@@ -16,7 +16,17 @@ h6 {
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 650;
 }
-
+#toTo_button {
+    position: fixed;
+    right: 12px;
+    bottom: 25px;
+    width: 70px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+}
 .btn100 {
   &:hover {
       opacity: 0.5;
