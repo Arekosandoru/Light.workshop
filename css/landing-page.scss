@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    // font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 650;
 }
 #toTo_button {
@@ -29,7 +29,9 @@ h6 {
     // color: #666;
     color: black;
 }
-
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+        background: rgba(238, 238, 238, 0.37);
+}
 .btn100 {
   &:hover {
       opacity: 0.5;
