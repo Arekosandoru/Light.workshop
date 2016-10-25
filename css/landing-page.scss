@@ -16,6 +16,19 @@ h6 {
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 650;
 }
+#toTo_button {
+    z-index: 100;
+    position: fixed;
+    right: 12px;
+    width: 50px;
+    bottom: 25px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    // color: #666;
+    color: black;
+}
 
 .btn100 {
   &:hover {
