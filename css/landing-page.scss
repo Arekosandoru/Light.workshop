@@ -181,18 +181,19 @@ p.copyright {
 }
 
 @media(screen and max-width:421px) {
- html, body {
-    overflow-x: hidden;
- }
-.minirow {
+ section {
+     overflow-x: hidden;
+  }
+.navbar .minirow {
     max-width: 320px;    
 }       
 }
 @media(screen and max-width:321px) {
- html, body {
-    overflow-x: hidden;
- }
- .navbar .minirow {
+ section {
+     overflow-x: hidden;
+  }
+.navbar .minirow {
     max-width: 320px;    
-}       
+}   
+    
 }
