@@ -180,6 +180,14 @@ p.copyright {
     margin: 15px 0 0;
 }
 
+@media(screen and max-width:421px) {
+ html, body {
+    overflow-x: hidden;
+ }
+.minirow {
+    max-width: 320px;    
+}       
+}
 @media(screen and max-width:321px) {
  html, body {
     overflow-x: hidden;
