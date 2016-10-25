@@ -22,9 +22,6 @@ h6 {
       opacity: 0.5;
     }
 }
-.modal-content {
-    padding-top: 50px;
-}
 
 .smallcircle {
     width: 142px;
@@ -155,6 +152,8 @@ h6 {
 }
 
 @media(max-width:767px) {
+    body {overflow-x: hidden;} //!!!!!!!!
+    
     .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
