@@ -181,8 +181,10 @@ p.copyright {
 }
 
 @media(screen and max-width:367px) {
- body {overflow-x: hidden;}
- .navbar {
-    max-width: 320px; 
-}   
+ html, body {
+    overflow-x: hidden;
+ }
+ .navbar .minirow {
+    max-width: 320px;    
+}       
 }
