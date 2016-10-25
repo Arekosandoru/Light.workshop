@@ -179,3 +179,10 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+@media(screen and max-width:367px) {
+ body {overflow-x: hidden;}
+ .navbar {
+    max-width: 320px; 
+}   
+}
