@@ -2,8 +2,7 @@
 body,
 html {
     width: 100%;
-    height: 100%;
-     
+    height: 100%;  
 }
 
 body,
@@ -18,6 +17,18 @@ h6 {
 .ppp {
     width: 641px;
     margin: 0 auto;
+}
+.imgOneFormatt {
+    // max-width: 360px;
+    // max-height: 300px;
+    width: 270px;
+    height: 260px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.a16px {
+    font-size: 16px;
 }
 #toTo_button {
     z-index: 100;
